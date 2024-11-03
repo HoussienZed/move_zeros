@@ -19,5 +19,5 @@ for i in range(numbers):
     number = int(input(f"Enter number {i + 1}: "))
     unarranged_numbers.append(number)
 
-print(f"The unarranged list of numbers is= {unarranged_numbers}")
+print(f"The original list of numbers is= {unarranged_numbers}")
 move_zeros(unarranged_numbers)
